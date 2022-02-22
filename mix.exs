@@ -34,7 +34,8 @@ defmodule ExKeccak.MixProject do
         "lib",
         "LICENSE",
         "README.md",
-        "CHANGELOG.md"
+        "CHANGELOG.md",
+        "checksum-Elixir.ExKeccak.exs"
       ]
     ]
   end
