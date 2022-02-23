@@ -7,7 +7,7 @@ defmodule ExKeccak do
   use RustlerPrecompiled,
     otp_app: :ex_keccak,
     crate: :exkeccak,
-    base_url: "https://github.com/spapas/ex_keccak/releases/download/0.3.3",
+    base_url: "https://github.com/studiodecent/ex_keccak/releases/download/0.3.3",
     version: "0.3.3"
 
   def hash_256(_data), do: :erlang.nif_error(:nif_not_loaded)
